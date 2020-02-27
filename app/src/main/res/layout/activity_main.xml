@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSplash"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:src="@drawable/icon_512x512"
+        android:id="@+id/id_logo"
+        android:rotation="270"
+        android:text="@string/app_name"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+    <WebView
+        android:id="@+id/web_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+</RelativeLayout>
